@@ -3,9 +3,10 @@ class test:
     def __init__(self,i):
         a = 5 # scope will be in the only inside __init__ function
         b = 6
-        self.a = 35345
-        print(self.a)
-        self.a = i
+        self.a = 33
+        print(self.a) # Just for debugging
+        self.a = i # this scope will be whole class
+        self.main() # main function scope should be whole class that why we have to use self.mai()
 #        self.a = 100 # this scope is for the whole class
 #       self.main()
 #        print(self.a)
@@ -16,8 +17,8 @@ class test:
 
 
 #print(test.a)
-custom_variable = test(3463)
-custom_variable.main()
+custom_variable = test(18)
+#custom_variable.main()
 #print(custom_variable)
 
 #print(self.a)

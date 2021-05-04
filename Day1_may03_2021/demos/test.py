@@ -47,12 +47,6 @@ class test:
         print(self.a)
 
 
-# dynamic memory allocation
-
-b = list(('a' ,'b' ,'c'))
-print(b)
-integer_1 = int(5)
-print(integer_1)
 
 # test_variable = test(5,6)
 
@@ -63,4 +57,13 @@ print(integer_1)
 
 # # custom_variable = test
 # # print(custom_variable.a[1])
+
+# dynamic memory allocation
+
+b = list(('a' ,'b' ,'c'))
+print(b)
+integer_1 = int(5)
+print(integer_1)
+
+
 

@@ -9,7 +9,7 @@ class test:
 
 
 #test_variable = test()
-test1_varible =  test
+test1_varible =  test()
 
 #print(test)
 #print(test_variable)

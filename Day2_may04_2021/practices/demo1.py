@@ -13,3 +13,5 @@ grade3.print_sub()
 grade2.print_sub()
 
 
+# The main use of class is code reusability
+

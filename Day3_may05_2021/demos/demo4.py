@@ -1,6 +1,6 @@
 a = [1, 2, 3, 4, 5, 6]
 
-a_new = [x**2 for x in a]
+a_new = [x**2 for x in a]  # List comprehension
 
 print(a_new)
 

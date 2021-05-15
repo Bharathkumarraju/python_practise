@@ -4,6 +4,4 @@ def print_pattern(n):
         print(' '*(n-i-1)+'* '*(i+1))
 
 
-
-
 print_pattern(10)

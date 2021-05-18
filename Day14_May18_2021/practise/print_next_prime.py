@@ -1,0 +1,4 @@
+"""
+Print next prime number
+"""
+

@@ -1,12 +1,9 @@
 def main():
-    n = int(input('Find the next prime number greater great than: '))
-    prime=find_next_prime(n+1)
+    n = int(input('Find the next prime number greater than: '))
+    prime=find_next_prime(n, 2*n)
     print("next prime is: ", prime)
 
-def find_next_prime(n):
-    return find_prime_in_range(n, 2*n)
-
-def find_prime_in_range(a, b):
+def find_next_prime(a, b):
     for p in range(a, b):
         for i in range(2, p):
             if p % i == 0:

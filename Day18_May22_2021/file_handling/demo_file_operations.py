@@ -9,7 +9,12 @@ a - append mode
 
 """
 
-f = open("messages.txt", 'r')
+try:
+    f = open("messages.txt", 'r')
+    content_6_chars = f.read(6)
+    print(content_6_chars)
 
-for i in f:
-    print(i)
+    more_content =  f.read(12)
+    print(more_content)
+finally:
+    f.close()

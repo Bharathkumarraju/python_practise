@@ -1,2 +1,2 @@
-I love python
-I love pulumi
+I love Programming.
+I love PulumiIAC.

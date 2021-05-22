@@ -1,1 +1,1 @@
-#
+print("Initializing the game...")

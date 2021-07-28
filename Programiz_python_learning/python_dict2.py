@@ -16,3 +16,22 @@ my_dict['address'] = 'singapore'
 print(my_dict)
 my_dict['hobby'] = 'learn python'
 print(my_dict)
+
+
+
+squares = {}
+
+for num in range(1, 6):
+    squares[num] = num * num
+print(squares)
+
+print(squares.pop(4))
+print(squares)
+
+print(squares.popitem())
+print(squares)
+
+squares.clear()
+print(squares)
+
+del squares

@@ -11,3 +11,8 @@ print(my_dict.get('location')) # Just gives None
 
 print("")
 # print(my_dict['location']) Gives key Error
+
+my_dict['address'] = 'singapore'
+print(my_dict)
+my_dict['hobby'] = 'learn python'
+print(my_dict)
